@@ -15,6 +15,7 @@ export default defineManifest({
     default_popup: 'popup.html',
     default_icon: 'img/logo-48.png',
   },
+  "default_locale": "en",
   options_page: 'options.html',
   background: {
     service_worker: 'src/background/index.js',
@@ -22,9 +23,14 @@ export default defineManifest({
   },
   content_scripts: [
     {
-      matches: ['https://mail.google.com/chat/*'],
-      js: ['src/content/index.js'],
+      "all_frames": true,
+      "matches": ["https://chat.google.com/*"],
+      "run_at": "document_end",
+      "js": ['src/content/index.js'],
     },
+  ],
+  "host_permissions": [
+    "https://*.google.com/*"
   ],
   web_accessible_resources: [
     {
@@ -33,24 +39,8 @@ export default defineManifest({
         'img/logo-34.png',
         'img/logo-48.png',
         'img/logo-128.png',
-        'tailwind.css',
-        'daisyui.css',
-        'tailwind.js',
       ],
       matches: [],
     },
   ],
-  permissions: ['activeTab', 'webRequest', 'identity', 'tabs'],
-  oauth2: {
-    client_id: '569848608913-i2650lfche8nejfm7lkk911bnv7n25g1.apps.googleusercontent.com',
-    scopes: [
-      'https://www.googleapis.com/auth/chat.memberships',
-      'https://www.googleapis.com/auth/chat.memberships.readonly',
-      'https://www.googleapis.com/auth/chat.messages',
-      'https://www.googleapis.com/auth/chat.messages.create',
-      'https://www.googleapis.com/auth/chat.spaces.readonly',
-      'https://www.googleapis.com/auth/chat.spaces',
-      'https://www.googleapis.com/auth/chat.messages.readonly'
-    ],
-  },
 })
