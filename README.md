@@ -4,10 +4,14 @@ Improve your google chat workflow by adding anchored tabs to threads.
 This improves finding threads by jumping to a specific topic.
 
 # Presented by these lovely folks
+<p float="left">
 <img src="./resources/elijah.jpg"  width="128" height="128">
 <img src="./resources/arjohn.jpg"  width="128" height="128">
 <img src="./resources/wendale.png"  width="128" height="128">
 <img src="./resources/james.png"  width="128" height="128">
+</p>
+
+
 ## Installing
 
 1. Check if your `Node.js` version is >= **14**.
