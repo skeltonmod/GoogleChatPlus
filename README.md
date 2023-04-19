@@ -5,10 +5,11 @@ This improves finding threads by jumping to a specific topic.
 
 # Presented by these lovely folks
 <p float="left">
-<img src="./resources/elijah.jpg"  width="128" height="128">
-<img src="./resources/arjohn.jpg"  width="128" height="128">
-<img src="./resources/wendale1.png"  width="128" height="128">
-<img src="./resources/james.png"  width="128" height="128">
+<img src="./resources/elijah.jpg"  width="64" height="64">
+<img src="./resources/arjohn.jpg"  width="64" height="64">
+<img src="./resources/wendale1.png"  width="64" height="64">
+<img src="./resources/james.png"  width="64" height="64">
+<img src="./resources/cedric.png"  width="64" height="64">
 </p>
 
 
