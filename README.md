@@ -7,7 +7,7 @@ This improves finding threads by jumping to a specific topic.
 <p float="left">
 <img src="./resources/elijah.jpg"  width="128" height="128">
 <img src="./resources/arjohn.jpg"  width="128" height="128">
-<img src="./resources/wendale.png"  width="128" height="128">
+<img src="./resources/wendale1.png"  width="128" height="128">
 <img src="./resources/james.png"  width="128" height="128">
 </p>
 
