@@ -1,7 +1,13 @@
-# bettergoogle
+![alt text](https://wash.elijahstuff.wtf/assets/banner.fw-c01f1dd2.png)
+# Google Chat Anchored Tabs
+Improve your google chat workflow by adding anchored tabs to threads.
+This improves finding threads by jumping to a specific topic.
 
-> a chrome extension tools built with Vite + Svelte, and Manifest v3
-
+# Presented by these lovely folks
+<img src="./resources/elijah.jpg"  width="128" height="128">
+<img src="./resources/arjohn.jpg"  width="128" height="128">
+<img src="./resources/wendale.png"  width="128" height="128">
+<img src="./resources/james.png"  width="128" height="128">
 ## Installing
 
 1. Check if your `Node.js` version is >= **14**.
