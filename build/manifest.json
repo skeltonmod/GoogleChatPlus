@@ -21,7 +21,7 @@
   "content_scripts": [
     {
       "js": [
-        "assets/content-script-loader.index.js.js"
+        "assets/content-script-loader.chunk-699d1980.9e5bb6be.js"
       ],
       "all_frames": true,
       "matches": [
@@ -46,11 +46,11 @@
     },
     {
       "matches": [
-        "<all_urls>"
+        "https://chat.google.com/*"
       ],
       "resources": [
-        "**/*",
-        "*"
+        "assets/chunk-4e37d9ad.js",
+        "assets/chunk-699d1980.js"
       ],
       "use_dynamic_url": true
     }
