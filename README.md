@@ -1,5 +1,5 @@
 ![alt text](https://wash.elijahstuff.wtf/assets/banner.fw-c01f1dd2.png)
-# Google Chat Anchored Tabs
+# Google Chat Anchored Threads
 Improve your google chat workflow by adding anchored tabs to threads.
 This improves finding threads by jumping to a specific topic.
 
